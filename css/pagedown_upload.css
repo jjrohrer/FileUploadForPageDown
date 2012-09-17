@@ -1,7 +1,0 @@
-.loading-small { width: 16px; height: 16px; background: url('pagedown_upload/images/loading-gif-animation.gif') no-repeat;
-                 display: inline-block; }
-#insertImageDialog { display:none; padding: 10px; }
-#insertImageDialog h4 { margin-bottom: 10px; }
-#insertImageDialog input[type=text] { width: 320px; }
-#insertImageDialog .loading-small { display:none; float: left; padding-right: 5px; }
-

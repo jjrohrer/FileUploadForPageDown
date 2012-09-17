@@ -15,7 +15,7 @@
         <script type='text/javascript' src='js/jquery-1.8.0.min.js'></script>
         <script type='text/javascript' src='js/jquery-ui-1.8.23.custom.min.js'></script>
         <link rel="stylesheet" type="text/css" href="css/ui-lightness/jquery-ui-1.8.23.custom.css" />
-        <link rel="stylesheet" type="text/css" href="css/pagedown_upload.css" />
+        <link rel="stylesheet" type="text/css" href="css/pagedown_upload/pagedown_upload.css" />
         <script type='text/javascript' src='js/jquery.ajaxfileupload.js'></script>        
         <!-- upload stuff -END- -->
 
