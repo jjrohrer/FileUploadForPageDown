@@ -40,8 +40,6 @@ Just plain **Markdown**, except that the input is sanitized:
 
 
     
-    <div id='uploadNow'>[upload now]</div>
-
     <div id="insertImageDialog" title="Insert Image">
     <h4>
         From the web</h4>
