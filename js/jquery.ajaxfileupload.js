@@ -36,7 +36,7 @@
 
           // Skip elements that are already setup. May replace this 
           //  with uninit() later, to allow updating that settings
-          if($element.data('ajaxUploader-setup') === true) return;
+          // JJR - Forking to make happy with PageDown (per http://ben.onfabrik.com/posts/pagedown-markdown-editor-custom-image-dialog) if($element.data('ajaxUploader-setup') === true) return;
 
           $element.change(function()
           {
