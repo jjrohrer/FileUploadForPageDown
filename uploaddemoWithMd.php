@@ -3,12 +3,12 @@
     <head>
         <title>PageDown Demo Page</title>
         
-        <link rel="stylesheet" type="text/css" href="demo.css" />
+        <link rel="stylesheet" type="text/css" href="css/demo.css" />
         
 <!-- Pagedown stuff -BEGIN- -->
-        <script type="text/javascript" src="../../Markdown.Converter.js"></script>
-        <script type="text/javascript" src="../../Markdown.Sanitizer.js"></script>
-        <script type="text/javascript" src="../../Markdown.Editor.js"></script>
+        <script type="text/javascript" src="js/Markdown.Converter.js"></script>
+        <script type="text/javascript" src="js/Markdown.Sanitizer.js"></script>
+        <script type="text/javascript" src="js/Markdown.Editor.js"></script>
 <!-- Pagedown stuff -BEGIN- -->
 
 <!-- upload stuff -BEGIN- -->
