@@ -1,10 +1,11 @@
 <?
 $allowedExts = array("jpg", "jpeg", "gif", "png","mp4","mov");
 $allowedTypes = array("image/gif", "image/jpeg", "image/pjpeg");
-$extension = end(explode(".", @$_FILES["file"]["name"]));
-if (!in_array($extension, $allowedExts)) {
+
+$extensionLower = strtolower(end(explode(".", @$_FILES["file"]["name"])));
+if (!in_array($extensionLower, $allowedExts)) {
   $allowedPretty = implode($allowedExts,",");
-  print '{"succes":false, "message":"Invalid file type.  You gave a '.$extension.' but only '.$allowedPretty.' are allowed "}';
+  print '{"succes":false, "message":"Invalid file type.  You gave a '.$extensionLower.' but only '.$allowedPretty.' are allowed "}';
   exit;
 }
 
