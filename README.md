@@ -6,7 +6,7 @@ This is a working demo of making file uploading work with pagedown.  There reall
 Instructions
 ------------
 * Put this on your server
-* ensure the 'upload' directory is writable by the web server
+* ensure the 'upload' directory is writable by the web server (something like: 'sudo chown  _www upload' on a Mac)
 * visit uploaddemoWithMd.php
 
 Motivation
@@ -25,3 +25,8 @@ Resources/Sources
 Disclaimer
 -----------
 I'm new to git, so be please be gentle - I'm sure there is a better way to make demo's using code from multiple repositories (well maybe, PageDown is hosted via mercurial)
+
+Troubleshooting
+---------------
+If you get a message back 'undefined', then you 'probably' have a permission problem.  At this point, you'll probably want to load it up in firebug to see what the message from the server is.
+NiceToDo: modify JS so if th the response from the server is 'underfined', the print out the raw response to the developer
