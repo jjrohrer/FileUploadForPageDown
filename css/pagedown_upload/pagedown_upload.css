@@ -2,5 +2,5 @@
                  display: inline-block; }
 #insertImageDialog { display:none; padding: 10px; }
 #insertImageDialog h4 { margin-bottom: 10px; }
-#insertImageDialog input[type=text] { width: 320px; }
+#insertImageDialog input { width: 265px; }
 #insertImageDialog .loading-small { display:none; float: left; padding-right: 5px; }
